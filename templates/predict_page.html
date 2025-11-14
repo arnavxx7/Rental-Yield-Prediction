@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rental Yield Prediction</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gradient-to-br from-blue-50 to-emerald-50 min-h-screen flex items-center justify-center py-10 px-5">
+
+  <div class="bg-white rounded-2xl shadow-2xl w-full max-w-3xl p-10 border border-gray-100">
+    
+    <h1 class="text-3xl font-bold text-emerald-600 text-center mb-2">
+      🏠 Rental Yield Prediction
+    </h1>
+    <p class="text-center text-gray-600 mb-8">
+      Enter the property details below to predict the expected rental yield.
+    </p>
+
+    <form action="/predict" method="post" class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+
+      <!-- Suburb -->
+      <div>
+        <label class="block text-gray-700 font-medium mb-1">Suburb of Mumbai</label>
+        <input type="text" name="suburb" required placeholder="e.g., Andheri East"
+          class="w-full border-gray-300 rounded-lg p-2 focus:ring-2 focus:ring-emerald-400 outline-none" />
+      </div>
+
+      <!-- Floor -->
+      <div>
+        <label class="block text-gray-700 font-medium mb-1">Floor Number</label>
+        <input type="number" name="floor" min="0" required placeholder="e.g., 5"
+          class="w-full border-gray-300 rounded-lg p-2 focus:ring-2 focus:ring-emerald-400 outline-none" />
+      </div>
+
+      <!-- Total Floors -->
+      <div>
+        <label class="block text-gray-700 font-medium mb-1">Total Floors in Building</label>
+        <input type="number" name="total_floors" min="1" required placeholder="e.g., 15"
+          class="w-full border-gray-300 rounded-lg p-2 focus:ring-2 focus:ring-emerald-400 outline-none" />
+      </div>
+
+      <!-- Parking Spaces -->
+      <div>
+        <label class="block text-gray-700 font-medium mb-1">Number of Parking Spaces</label>
+        <input type="number" name="parking_spaces" min="0" required placeholder="e.g., 1"
+          class="w-full border-gray-300 rounded-lg p-2 focus:ring-2 focus:ring-emerald-400 outline-none" />
+      </div>
+
+      <!-- Number of BHK -->
+      <div>
+        <label class="block text-gray-700 font-medium mb-1">Number of BHK</label>
+        <input type="number" name="bhk" min="1" required placeholder="e.g., 2"
+          class="w-full border-gray-300 rounded-lg p-2 focus:ring-2 focus:ring-emerald-400 outline-none" />
+      </div>
+
+      <!--Preference-->
+      <div>
+        <label class="block text-gray-700 font-medium mb-1">Preferred Tenant</label>
+        <select name="pref" required
+            class="w-full border-gray-300 rounded-lg p-2 bg-white focus:ring-2 focus:ring-emerald-400 outline-none">
+            <option value="">Select</option>
+            <option value="Family">Family</option>
+            <option value="Bachelors">Bachelor</option>
+            <option value="Family/Bachelor">Both</option>
+        </select>
+      </div>
+
+      <!-- Furnishing Status -->
+      <div>
+        <label class="block text-gray-700 font-medium mb-1">Furnishing Status</label>
+        <select name="furnishing_status" required
+          class="w-full border-gray-300 rounded-lg p-2 bg-white focus:ring-2 focus:ring-emerald-400 outline-none">
+          <option value="">Select</option>
+          <option value="UnFurnished">Unfurnished</option>
+          <option value="Semi Furnished">Semi-furnished</option>
+          <option value="Fully Furnished">Furnished</option>
+        </select>
+      </div>
+
+      <!-- Food Preference -->
+      <div>
+        <label class="block text-gray-700 font-medium mb-1">Food Preference</label>
+        <select name="food_pref" required
+          class="w-full border-gray-300 rounded-lg p-2 bg-white focus:ring-2 focus:ring-emerald-400 outline-none">
+          <option value="">Select</option>
+          <option value="Only Vegetarian">Only Vegetarian</option>
+          <option value="Veg/Non Veg">Both</option>
+        </select>
+      </div>
+
+      <!-- Number of Amenities -->
+      <div>
+        <label class="block text-gray-700 font-medium mb-1">Number of Amenities</label>
+        <input type="number" name="num_amenities" min="0" required placeholder="e.g., 5"
+          class="w-full border-gray-300 rounded-lg p-2 focus:ring-2 focus:ring-emerald-400 outline-none" />
+      </div>
+
+      <!-- Age of Building -->
+      <div>
+        <label class="block text-gray-700 font-medium mb-1">Age of Building (Years)</label>
+        <input type="number" name="building_age" min="0" required placeholder="e.g., 10"
+          class="w-full border-gray-300 rounded-lg p-2 focus:ring-2 focus:ring-emerald-400 outline-none" />
+      </div>
+
+      <!-- Number of Balconies -->
+      <div>
+        <label class="block text-gray-700 font-medium mb-1">Number of Balconies</label>
+        <input type="number" name="num_balconies" min="0" required placeholder="e.g., 2"
+          class="w-full border-gray-300 rounded-lg p-2 focus:ring-2 focus:ring-emerald-400 outline-none" />
+      </div>
+
+      <!-- Area -->
+      <div>
+        <label class="block text-gray-700 font-medium mb-1">Area (sq. ft.)</label>
+        <input type="number" name="area_sqft" min="0" step="0.01" required placeholder="e.g., 750"
+          class="w-full border-gray-300 rounded-lg p-2 focus:ring-2 focus:ring-emerald-400 outline-none" />
+      </div>
+
+      <!-- Budget -->
+      <div>
+        <label class="block text-gray-700 font-medium mb-1">Budget (INR)</label>
+        <input type="number" name="budget" min="0" required placeholder="e.g., 15000000"
+          class="w-full border-gray-300 rounded-lg p-2 focus:ring-2 focus:ring-emerald-400 outline-none" />
+      </div>
+
+      <!-- Submit Button -->
+      <div class="sm:col-span-2 text-center mt-6">
+        <button type="submit"
+          class="px-8 py-3 bg-emerald-600 text-white font-semibold rounded-lg shadow-md hover:bg-emerald-700 transition">
+          🔍 Predict
+        </button>
+      </div>
+    </form>
+
+    {% if rent_prediction %}
+    <div class="mt-10 text-center bg-emerald-50 border border-emerald-100 rounded-xl p-6">
+      <h2 class="text-2xl font-semibold text-emerald-700 mb-2">🎯 Prediction Result</h2>
+      <p class="text-lg text-gray-700">
+        Expected Rent for your property: 
+        <span class="font-bold text-emerald-600">INR {{ rent_prediction }}</span>
+      </p>
+      <p class="text-1g text-gray-700">
+        Expected Rental yield for your property:
+        <span class="font-bold text-emerald-600">{{ yield_prediction }}%</span>
+      </p>
+    </div>
+    {% endif %}
+
+  </div>
+
+</body>
+</html>

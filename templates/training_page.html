@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Training Pipeline - Results</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/tailwindcss">
+      @theme {
+        --color-clifford: #da373d;
+      }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-sky-50 to-emerald-50 min-h-screen flex items-center justify-center p-6">
+    <div class="bg-white rounded-2xl shadow-2xl max-w-3xl w-full p-10 text-center border border-gray-100">
+        <h1 class="text-3xl font-extrabold text-emerald-600 mb-2">✅ Training Pipeline Executed Successfully!</h1>
+        <p class="text-gray-600 text-lg mb-8">Here are the results from your latest training run:</p>
+
+        <section class="mb-8 text-left">
+            <h2 class="text-2xl font-semibold text-sky-700 mb-3 flex items-center gap-2"> Best Model: {{ best_model}} </h2>
+        </section>
+
+        <section class="mb-8 text-left">
+            <h2 class="text-2xl font-semibold text-sky-700 mb-3 flex items-center gap-2"><span>📊</span> Cross Validation Metrics</h2>
+            <div class="bg-sky-50 border border-sky-100 rounded-xl p-5 shadow-sm">
+                <p class="text-gray-700 text-lg"><strong>R² Score:</strong> {{cv_metrics.r2}}%</p>
+                <p class="text-gray-700 text-lg"><strong>Mean Absolute Error (MAE):</strong> {{cv_metrics.mae}}</p>
+            </div>
+        </section>
+
+        <section class="mb-8 text-left">
+            <h2 class="text-2xl font-semibold text-emerald-700 mb-3 flex items-center gap-2"><span>🔗</span> Train Metrics</h2>
+            <div class="bg-emerald-50 border border-emerald-100 rounded-xl p-5 shadow-sm">
+                <p class="text-gray-700 text-lg"><strong>R² Score:</strong> {{train_metrics.r2}}%</p>
+                <p class="text-gray-700 text-lg"><strong>Mean Absolute Error (MAE):</strong> {{train_metrics.mae}}</p>
+            </div>
+        </section>
+
+        <section class="mb-8 text-left">
+            <h2 class="text-2xl font-semibold text-emerald-700 mb-3 flex items-center gap-2"><span>🔗</span> Test Metrics</h2>
+            <div class="bg-emerald-50 border border-emerald-100 rounded-xl p-5 shadow-sm">
+                <p class="text-gray-700 text-lg"><strong>R² Score:</strong> {{test_metrics.r2}}%</p>
+                <p class="text-gray-700 text-lg"><strong>Mean Absolute Error (MAE):</strong> {{test_metrics.mae}}</p>
+            </div>
+        </section>
+
+    </div>
+</body>
+</html>

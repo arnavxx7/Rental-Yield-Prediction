@@ -1,0 +1,12 @@
+pandas
+numpy
+scikit-learn
+psycopg2
+python-dotenv
+bs4
+sqlalchemy
+scipy
+fastapi
+uvicorn
+mlflow
+dagshub

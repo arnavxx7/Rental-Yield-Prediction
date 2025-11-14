@@ -1,0 +1,90 @@
+Suburb,Floor,Total_floor,Parking,num_BHK,Preference,Furnishing,Veg/Non-veg,num_amenities,age,balconies,area,Rent
+Ulwe,2,7,0,1,Family,UnFurnished,Veg/Non Veg,4,,3,670.0,11000.0
+Ulwe,3,4,0,1,Family,Semi Furnished,Veg/Non Veg,5,,3,625.0,8000.0
+Dahisar East,4,6,0,1,Family,Semi Furnished,Only Vegetarian,12,,0,520.0,28000.0
+Bhayander,2,8,0,1,Family,UnFurnished,Veg/Non Veg,19,,0,550.0,15000.0
+Ulwe,6,7,1,2,Family/Bachelor,UnFurnished,Veg/Non Veg,5,3.0,2,966.6666666666666,16000.0
+Mira road east,15,25,1,2,Family,Semi Furnished,Veg/Non Veg,23,0.0,3,848.3333333333334,30000.0
+Chandivali,11,21,1,2,Family,UnFurnished,Veg/Non Veg,19,5.0,1,845.0,70000.0
+Mumbai,4,7,0,1,Family/Bachelor,Semi Furnished,Veg/Non Veg,20,10.0,0,225.0,19000.0
+Cuffe Parade,12,20,1,3,Family/Bachelor,Semi Furnished,Veg/Non Veg,1,,0,,270000.0
+Koliwada,1,7,0,2,Family,UnFurnished,Veg/Non Veg,7,5.0,0,733.25,30000.0
+Mira Bhayandar,3,7,2,2,Family,Semi Furnished,Veg/Non Veg,17,,0,,23000.0
+Matunga West,9,19,1,1,Family/Bachelor,Semi Furnished,Veg/Non Veg,1,,0,,70000.0
+Santacruz West,9,13,2,3,Family,Semi Furnished,Only Vegetarian,8,,0,1200.0,114999.99999999999
+Bhayander,1,3,1,2,Family,UnFurnished,Veg/Non Veg,2,,1,950.0,21000.0
+Mira road east,5,16,1,1,Family,Semi Furnished,Veg/Non Veg,12,,3,700.0,22000.0
+Kopar Khairane,3,4,1,1,Family,Fully Furnished,Veg/Non Veg,4,5.0,3,596.6666666666666,40000.0
+Bandra,2,7,1,1,Family/Bachelor,UnFurnished,Veg/Non Veg,2,,0,666.6666666666666,45000.0
+Chandivali,2,7,0,1,Family/Bachelor,UnFurnished,Veg/Non Veg,16,10.0,0,216.66666666666666,16000.0
+Kandivali East,1,4,0,1,Family/Bachelor,UnFurnished,Veg/Non Veg,1,,0,,18000.0
+Dindoshi,12,20,1,2,Family/Bachelor,Semi Furnished,Veg/Non Veg,18,3.0,0,792.6666666666666,55000.0
+Malad West,5,7,0,1,Family/Bachelor,Semi Furnished,Veg/Non Veg,2,,0,,32000.0
+Santacruz West,3,6,1,2,Family/Bachelor,Semi Furnished,Only Vegetarian,19,3.0,2,825.0,150000.0
+Chakala,6,11,1,3,Family/Bachelor,Fully Furnished,Veg/Non Veg,12,3.0,1,1538.0,130000.0
+Mira road east,10,25,1,2,Family,UnFurnished,Veg/Non Veg,17,0.0,3,866.6666666666666,26000.0
+Mira road east,5,7,0,2,Family,Fully Furnished,Veg/Non Veg,10,5.0,3,850.0,51246.01366742597
+Kurar Village,36,40,1,2,Family/Bachelor,Fully Furnished,Veg/Non Veg,26,,0,1050.0,57000.0
+Ulwe,4,7,0,1,Family,UnFurnished,Veg/Non Veg,5,1.0,3,565.0,14000.0
+Near vaishno Heights,10,22,1,2,Family/Bachelor,Fully Furnished,Veg/Non Veg,17,3.0,0,860.0,60000.0
+Mira Road East,14,15,1,3,Family,Semi Furnished,Veg/Non Veg,11,5.0,4,1200.0,40000.0
+Gokuldham Colony,4,7,1,1,Family/Bachelor,UnFurnished,Veg/Non Veg,4,10.0,0,650.0,30000.0
+Ulwe Navi Mumbai,9,13,1,2,Family,Semi Furnished,Veg/Non Veg,18,1.0,4,885.0,23000.0
+Off Linkin Road,5,9,1,2,Family,Semi Furnished,Veg/Non Veg,8,,1,950.0,80000.0
+Mira Road,15,23,1,2,Family,UnFurnished,Veg/Non Veg,1,,4,,30000.0
+Goregaon East,20,45,2,3,Family,Fully Furnished,Veg/Non Veg,46,5.0,0,1526.25,130000.0
+Goregaon West,16,30,1,3,Family/Bachelor,Semi Furnished,Veg/Non Veg,12,,0,1000.0,100000.0
+Mira Bhayandar,5,7,1,1,Family,Semi Furnished,Veg/Non Veg,18,,1,,22000.0
+Kurla,11,19,1,1,Bachelors,UnFurnished,Veg/Non Veg,10,5.0,0,483.3333333333333,35000.0
+Malad East,9,25,1,2,Family/Bachelor,UnFurnished,Veg/Non Veg,34,5.0,2,937.5,58000.0
+Mira road east,11,35,1,1,Family,UnFurnished,Veg/Non Veg,21,5.0,3,583.3333333333334,21000.0
+Beverly Park,6,15,1,1,Family,Semi Furnished,Veg/Non Veg,12,5.0,2,519.0,16000.0
+Andheri West,0,4,0,1,Family/Bachelor,Fully Furnished,Only Vegetarian,2,,0,,40000.0
+Naupada,4,8,1,2,Family/Bachelor,UnFurnished,Veg/Non Veg,5,,0,1603.75,46000.0
+Khar West,7,10,1,2,Family/Bachelor,Semi Furnished,Veg/Non Veg,5,,0,1133.3333333333333,90000.0
+Mira road east,6,22,1,2,Family,Semi Furnished,Veg/Non Veg,15,,3,1000.0,27000.0
+Goregaon East,21,23,1,2,Family/Bachelor,UnFurnished,Veg/Non Veg,6,3.0,0,1150.0,58000.0
+Ghatkopar East,11,19,1,2,Family,Semi Furnished,Veg/Non Veg,8,,0,1042.6666666666667,55000.0
+Malad West,7,7,0,2,Family,Semi Furnished,Veg/Non Veg,3,,2,750.0,48000.0
+Mumbai,1,4,1,2,Family/Bachelor,Fully Furnished,Veg/Non Veg,9,,1,1075.0,95000.0
+Chandivali,12,22,1,2,Family/Bachelor,UnFurnished,Veg/Non Veg,41,,0,,68000.0
+Ulwe,3,7,1,2,Family,UnFurnished,Veg/Non Veg,7,1.0,4,849.3333333333334,17000.0
+Mira road east,6,10,1,2,Family,Fully Furnished,Veg/Non Veg,11,5.0,3,825.0,30000.0
+Worli,12,25,1,2,Family/Bachelor,Semi Furnished,Veg/Non Veg,46,5.0,2,1037.5,110000.00000000001
+Chandivali,5,7,1,1,Family,Fully Furnished,Veg/Non Veg,1,,0,,42000.0
+Chandivali,3,21,1,3,Family/Bachelor,UnFurnished,Veg/Non Veg,46,,2,,90000.0
+Tilak Nagar,3,14,0,2,Family/Bachelor,Semi Furnished,Veg/Non Veg,13,,0,,65000.0
+Santacruz West,3,13,1,2,Family/Bachelor,Semi Furnished,Veg/Non Veg,5,1.0,0,1000.0,80000.0
+Darave,3,15,1,4,Family,Fully Furnished,Veg/Non Veg,14,,1,,150000.0
+Kandivali,4,7,0,1,Family,Semi Furnished,Only Vegetarian,9,,0,,23000.0
+Vishweshwar Nagar,24,25,2,3,Family/Bachelor,Semi Furnished,Veg/Non Veg,7,,1,,150000.0
+Rahija vihar,3,7,0,1,Family,UnFurnished,Veg/Non Veg,15,,0,540.0,40000.0
+Rahija vihar,5,7,1,2,Family/Bachelor,UnFurnished,Veg/Non Veg,21,10.0,0,825.0,60000.0
+Ghatkopar East,12,16,1,1,Family,Semi Furnished,Veg/Non Veg,8,,0,900.0,32000.0
+Lokhandwala,7,15,1,2,Family/Bachelor,Semi Furnished,Veg/Non Veg,3,,0,1100.0,70000.0
+Kandivali East,7,3,0,1,Family/Bachelor,UnFurnished,Veg/Non Veg,8,,0,,22000.0
+Gokuldham Colony,12,50,1,3,Family/Bachelor,Semi Furnished,Veg/Non Veg,9,,0,1233.3333333333333,120000.0
+Mira road east,7,7,0,1,Family,Fully Furnished,Veg/Non Veg,10,5.0,3,583.3333333333334,20000.0
+Ulwe,8,14,1,2,Family,UnFurnished,Veg/Non Veg,15,,4,1100.0,23000.0
+Chandivali,7,7,0,1,Family/Bachelor,Semi Furnished,Veg/Non Veg,16,,0,450.0,36000.0
+Chandivali,2,7,0,1,Family/Bachelor,Fully Furnished,Veg/Non Veg,17,,0,250.0,25000.0
+Mira road east,1,1,1,5,Family,UnFurnished,Veg/Non Veg,5,,4,3500.0,95000.0
+Colaba,5,5,1,2,Family/Bachelor,Semi Furnished,Veg/Non Veg,1,,0,,120000.0
+MINATAI THAKARE ROAD,2,7,0,1,Family,UnFurnished,Veg/Non Veg,18,10.0,0,387.5,12000.0
+Ahimsa marg,3,6,1,2,Family/Bachelor,Semi Furnished,Veg/Non Veg,17,,0,950.0,45000.0
+Nerul,2,29,1,2,Family,Semi Furnished,Veg/Non Veg,25,,1,,60000.0
+Chandivali,3,14,1,1,Family/Bachelor,UnFurnished,Veg/Non Veg,28,,1,,42000.0
+Mira road east,5,8,1,2,Family,Fully Furnished,Veg/Non Veg,13,,3,1050.0,32000.0
+Mira Bhayandar,1,1,1,1,Family,UnFurnished,Veg/Non Veg,9,,0,,11000.0
+Mira road east,15,24,1,3,Family,Fully Furnished,Veg/Non Veg,17,,4,1400.0,45000.0
+Evershine nagar,5,17,1,2,Family,Fully Furnished,Only Vegetarian,46,,0,850.0,63000.0
+Gokuldham,9,20,2,3,Family/Bachelor,Semi Furnished,Veg/Non Veg,18,,0,1400.0,86000.0
+Koliwada,4,7,0,1,Family,UnFurnished,Veg/Non Veg,7,10.0,0,466.25,20000.0
+Ulwe,3,7,0,1,Family,UnFurnished,Veg/Non Veg,3,,1,553.3333333333334,12000.0
+Mindspace malad west,4,7,0,1,Family,Semi Furnished,Veg/Non Veg,18,,0,526.6666666666666,36000.0
+Mira road,3,7,1,2,Family,UnFurnished,Veg/Non Veg,17,,0,,24000.0
+Juhu,4,7,1,2,Family/Bachelor,Fully Furnished,Veg/Non Veg,4,,0,1100.0,75000.0
+Mira Road East,6,12,0,2,Family/Bachelor,Semi Furnished,Veg/Non Veg,9,5.0,4,710.0,18000.0
+Chandivali,3,6,0,1,Family/Bachelor,UnFurnished,Veg/Non Veg,23,10.0,0,218.33333333333334,11000.0
+Lake home,13,22,1,3,Family,UnFurnished,Veg/Non Veg,31,10.0,3,1134.0,90000.0
+Ghatkopar East,2,7,0,1,Family/Bachelor,UnFurnished,Veg/Non Veg,5,,0,337.5,15000.0

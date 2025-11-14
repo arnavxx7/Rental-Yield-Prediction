@@ -1,0 +1,7 @@
+venv
+logs
+webpage
+Artifacts
+mlruns
+__pycache__
+recovered_files
